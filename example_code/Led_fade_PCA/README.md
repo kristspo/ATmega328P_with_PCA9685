@@ -1,5 +1,5 @@
 ### Led_fade_PCA
 
-This code fades leds connected to PWM outputs without using specific control library. PCA9685 registers are written using I2C Arduino Wire class. Led fading can use linear or adjusted fade curve.
+Example Arduino sketch fades leds connected to PWM outputs without using specific control library. PCA9685 registers are written using Arduino I2C Wire class. Led fading can use linear or adjusted fade curve.
 
-Example code is provided "AS IS", without warranty of any kind that it will be useful for your purpose.
+Code is provided "AS IS", without warranty of any kind that it will be useful for your purpose.
