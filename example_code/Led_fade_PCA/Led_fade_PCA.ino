@@ -79,7 +79,7 @@ void loop() {
     fadeout = !fadeout;
     pwm = (fadeout) ? 4095 : 0;
   }
-  // blink onboard led shortly ath the end of the cycle
+  // blink onboard led shortly at the end of the cycle
   digitalWrite(LED_BUILTIN, (count == 64));
 
   // set PCA9685 start channel register address
